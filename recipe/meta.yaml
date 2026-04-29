@@ -29,7 +29,6 @@ requirements:
 test:
   imports:
     - azure.mgmt.rdbms
-    - azure.mgmt.rdbms.aio
   commands:
     - pip check
   requires:
